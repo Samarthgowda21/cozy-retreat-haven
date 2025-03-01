@@ -89,9 +89,9 @@ const AmenityCard: React.FC<AmenityCardProps> = ({
 const Amenities: React.FC = () => {
   const amenities = [
     {
-      title: "Swimming Pool",
+      title: "Garden Swimming Pool",
       description:
-        "Immerse yourself in our crystal-clear infinity pool overlooking breathtaking views.",
+        "A beautiful swimming pool located in our garden area, perfect for cooling off on warm days.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -117,9 +117,9 @@ const Amenities: React.FC = () => {
         "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1470&auto=format&fit=crop",
     },
     {
-      title: "Jacuzzi",
+      title: "Outdoor Jacuzzi",
       description:
-        "Relax and rejuvenate in our premium jacuzzi with therapeutic jets and temperature control.",
+        "Relax and socialize in our premium outdoor jacuzzi with stunning views of the surrounding area.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -143,9 +143,36 @@ const Amenities: React.FC = () => {
         "https://images.unsplash.com/photo-1584622650111-993a426bcf0c?q=80&w=1470&auto=format&fit=crop",
     },
     {
-      title: "Private Garden",
+      title: "Common Living Area",
       description:
-        "Enjoy the tranquility of our beautifully landscaped gardens with exotic flora.",
+        "A spacious common living area where your group can gather, relax, and enjoy quality time together.",
+      icon: (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          className="text-white"
+        >
+          <path d="M3 7V5a2 2 0 0 1 2-2h2"></path>
+          <path d="M17 3h2a2 2 0 0 1 2 2v2"></path>
+          <path d="M21 17v2a2 2 0 0 1-2 2h-2"></path>
+          <path d="M7 21H5a2 2 0 0 1-2-2v-2"></path>
+          <rect x="7" y="7" width="10" height="10" rx="1"></rect>
+        </svg>
+      ),
+      imageUrl:
+        "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?q=80&w=1470&auto=format&fit=crop",
+    },
+    {
+      title: "Garden",
+      description:
+        "Beautiful landscaped garden with seating areas, perfect for outdoor relaxation and gatherings.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -169,9 +196,9 @@ const Amenities: React.FC = () => {
         "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?q=80&w=1632&auto=format&fit=crop",
     },
     {
-      title: "Gourmet Kitchen",
+      title: "Fully Equipped Kitchen",
       description:
-        "A fully equipped kitchen with premium appliances for preparing delicious meals.",
+        "Modern kitchen with premium appliances for preparing meals for your entire group.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -199,7 +226,7 @@ const Amenities: React.FC = () => {
     {
       title: "Outdoor Dining",
       description:
-        "Al fresco dining area with stunning views, perfect for memorable meals.",
+        "Spacious outdoor dining area, perfect for group meals while enjoying the beautiful surroundings.",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -222,30 +249,6 @@ const Amenities: React.FC = () => {
       ),
       imageUrl:
         "https://images.unsplash.com/photo-1613545325278-f24b0cae1224?q=80&w=1470&auto=format&fit=crop",
-    },
-    {
-      title: "Entertainment Room",
-      description:
-        "A dedicated space with state-of-the-art entertainment systems for your leisure.",
-      icon: (
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="16"
-          height="16"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          className="text-white"
-        >
-          <rect x="2" y="7" width="20" height="15" rx="2" ry="2"></rect>
-          <polyline points="17 2 12 7 7 2"></polyline>
-        </svg>
-      ),
-      imageUrl:
-        "https://images.unsplash.com/photo-1593784991095-a205069470b6?q=80&w=1470&auto=format&fit=crop",
     },
   ];
 
@@ -283,15 +286,15 @@ const Amenities: React.FC = () => {
           )}
         >
           <span className="inline-block px-3 py-1 mb-4 text-sm font-medium rounded-full bg-secondary text-secondary-foreground">
-            Exclusive Amenities
+            Perfect for Groups
           </span>
           <h2 className="text-3xl md:text-4xl font-display font-semibold mb-6">
-            Experience Luxury Beyond Imagination
+            Amenities for 8-12 People
           </h2>
           <p className="text-lg text-muted-foreground">
-            Our villa features a range of premium amenities designed to make your
-            stay unforgettable, from a stunning infinity pool to a rejuvenating
-            jacuzzi and beautifully landscaped gardens.
+            SIHAYA offers a range of amenities designed for group enjoyment, from our 
+            garden swimming pool and outdoor jacuzzi to spacious common areas perfect for
+            gatherings of 8-12 people.
           </p>
         </div>
 

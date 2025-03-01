@@ -48,7 +48,7 @@ const Hero: React.FC = () => {
             )}
             style={{ animationDelay: "300ms" }}
           >
-            Luxury Vacation Retreat
+            Luxury Group Accommodation
           </span>
           
           <h1 
@@ -58,7 +58,7 @@ const Hero: React.FC = () => {
             )}
             style={{ animationDelay: "500ms" }}
           >
-            Experience Unparalleled Comfort and Luxury
+            SIHAYA
           </h1>
           
           <p 
@@ -68,7 +68,7 @@ const Hero: React.FC = () => {
             )}
             style={{ animationDelay: "700ms" }}
           >
-            Nestled among serene surroundings, our luxury villa offers four exquisite rooms, a refreshing swimming pool, and a rejuvenating jacuzzi for an unforgettable getaway.
+            A stunning retreat perfect for groups of 8-12 people, featuring four elegant suites with attached bathrooms, a garden swimming pool, and an outdoor jacuzzi.
           </p>
           
           <div 
@@ -79,10 +79,10 @@ const Hero: React.FC = () => {
             style={{ animationDelay: "900ms" }}
           >
             <a 
-              href="#booking" 
+              href="#contact" 
               className="px-8 py-3 bg-white text-primary font-medium rounded-md hover:bg-white/90 transition-colors"
             >
-              Book Now
+              Contact Us
             </a>
             <a 
               href="#rooms" 

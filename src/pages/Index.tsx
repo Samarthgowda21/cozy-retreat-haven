@@ -5,8 +5,8 @@ import Hero from "@/components/Hero";
 import RoomCard from "@/components/RoomCard";
 import Amenities from "@/components/Amenities";
 import Gallery from "@/components/Gallery";
-import Booking from "@/components/Booking";
 import { cn } from "@/lib/utils";
+import Contact from "@/components/Contact";
 
 const Index = () => {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -26,77 +26,74 @@ const Index = () => {
   const rooms = [
     {
       id: 1,
-      name: "Deluxe Suite",
+      name: "Royal Suite",
       description:
-        "Our spacious Deluxe Suite offers stunning views and premium amenities for a truly luxurious experience.",
-      price: 299,
-      capacity: 4,
-      size: 65,
+        "Spacious and elegant suite with a luxurious attached bathroom, perfect for couples or families.",
+      price: 0,
+      capacity: 3,
+      size: 45,
       imageUrl:
         "https://images.unsplash.com/photo-1560185007-5f0bb1866cab?q=80&w=1470&auto=format&fit=crop",
       features: [
         "King Bed",
-        "Ocean View",
-        "Private Balcony",
-        "Mini Bar",
+        "Attached Bathroom",
         "Smart TV",
-        "Rainfall Shower",
+        "Air Conditioning",
+        "Premium Bedding",
       ],
     },
     {
       id: 2,
-      name: "Premium Room",
+      name: "Garden View Suite",
       description:
-        "A comfortable and elegant space with modern amenities and a cozy atmosphere for a perfect retreat.",
-      price: 249,
-      capacity: 2,
+        "Beautiful suite overlooking the garden with a stylish bathroom and modern amenities.",
+      price: 0,
+      capacity: 3,
       size: 45,
       imageUrl:
         "https://images.unsplash.com/photo-1560448204-603b3fc33ddc?q=80&w=1470&auto=format&fit=crop",
       features: [
         "Queen Bed",
+        "Attached Bathroom",
         "Garden View",
-        "Work Desk",
         "Smart TV",
-        "Coffee Machine",
+        "Air Conditioning",
       ],
     },
     {
       id: 3,
-      name: "Garden View Room",
+      name: "Pool View Suite",
       description:
-        "Immerse yourself in nature with our Garden View Room, offering tranquility and beautiful scenery.",
-      price: 229,
-      capacity: 2,
-      size: 40,
+        "Elegant suite with views of the swimming pool, featuring a modern bathroom and comfortable furnishings.",
+      price: 0,
+      capacity: 3,
+      size: 45,
       imageUrl:
         "https://images.unsplash.com/photo-1566665797739-1674de7a421a?q=80&w=1374&auto=format&fit=crop",
       features: [
-        "Twin Beds",
-        "Garden View",
-        "Sitting Area",
+        "Queen Bed",
+        "Attached Bathroom",
+        "Pool View",
         "Smart TV",
-        "Coffee Machine",
+        "Air Conditioning",
       ],
     },
     {
       id: 4,
-      name: "Executive Suite",
+      name: "Sunset Suite",
       description:
-        "Our most exclusive offering with premium amenities, spacious living areas, and exceptional service.",
-      price: 399,
-      capacity: 6,
-      size: 85,
+        "Charming suite with beautiful sunset views, a luxurious bathroom, and all modern comforts.",
+      price: 0,
+      capacity: 3,
+      size: 45,
       imageUrl:
         "https://images.unsplash.com/photo-1566195992011-5f6b21e539aa?q=80&w=1374&auto=format&fit=crop",
       features: [
         "King Bed",
-        "Panoramic View",
-        "Living Room",
-        "Private Jacuzzi",
-        "Dining Area",
+        "Attached Bathroom",
+        "Scenic View",
         "Smart TV",
-        "Premium Sound System",
+        "Air Conditioning",
       ],
     },
   ];
@@ -115,14 +112,14 @@ const Index = () => {
             style={{ transitionDelay: "300ms" }}
           >
             <span className="inline-block px-3 py-1 mb-4 text-sm font-medium rounded-full bg-secondary text-secondary-foreground">
-              Luxurious Accommodations
+              Four Identical Suites
             </span>
             <h2 className="text-3xl md:text-4xl font-display font-semibold mb-6">
-              Exquisite Rooms for Your Perfect Stay
+              Luxurious Rooms with Private Bathrooms
             </h2>
             <p className="text-lg text-muted-foreground">
-              Choose from our selection of four beautifully designed rooms, each 
-              offering unique features and premium amenities for your comfort and relaxation.
+              SIHAYA offers four beautifully designed suites, each with an attached bathroom 
+              and premium amenities for your comfort and relaxation.
             </p>
           </div>
 
@@ -136,7 +133,7 @@ const Index = () => {
 
       <Amenities />
       <Gallery />
-      <Booking />
+      <Contact />
     </Layout>
   );
 };
