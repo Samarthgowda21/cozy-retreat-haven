@@ -44,7 +44,7 @@ const Navigation: React.FC<NavigationProps> = ({ scrollY }) => {
             href="#"
             className="text-2xl font-display font-semibold tracking-tight"
           >
-            Serenity Villa
+            SIHAYA
           </a>
 
           {/* Desktop Navigation */}
@@ -108,9 +108,10 @@ const Navigation: React.FC<NavigationProps> = ({ scrollY }) => {
       {/* Mobile menu */}
       <div
         className={cn(
-          "fixed inset-0 bg-background flex flex-col pt-24 px-4 z-40 transform transition-transform duration-300 ease-in-out",
+          "fixed inset-0 bg-background z-40 flex flex-col pt-24 px-4 transform transition-transform duration-300 ease-in-out md:hidden",
           mobileMenuOpen ? "translate-y-0" : "-translate-y-full"
         )}
+        style={{ top: "0", bottom: "0", height: "100vh" }}
       >
         <div className="flex flex-col space-y-4">
           {navLinks.map((link) => (

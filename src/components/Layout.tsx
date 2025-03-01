@@ -26,7 +26,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         <div className="container px-4 mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-lg font-medium mb-4">Serenity Villa</h3>
+              <h3 className="text-lg font-medium mb-4">SIHAYA</h3>
               <p className="text-muted-foreground text-sm">
                 Experience luxury and comfort in our beautiful property located in the heart of nature.
               </p>
@@ -37,7 +37,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 <li><a href="#rooms" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Rooms</a></li>
                 <li><a href="#amenities" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Amenities</a></li>
                 <li><a href="#gallery" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Gallery</a></li>
-                <li><a href="#booking" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Book Now</a></li>
+                <li><a href="#contact" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Contact</a></li>
               </ul>
             </div>
             <div>
@@ -45,7 +45,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               <ul className="space-y-2">
                 <li className="text-sm text-muted-foreground">123 Serenity Lane</li>
                 <li className="text-sm text-muted-foreground">Paradise City, PC 12345</li>
-                <li className="text-sm text-muted-foreground">info@serenityvilla.com</li>
+                <li className="text-sm text-muted-foreground">info@sihaya.com</li>
                 <li className="text-sm text-muted-foreground">+1 (123) 456-7890</li>
               </ul>
             </div>
@@ -76,7 +76,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             </div>
           </div>
           <div className="mt-12 pt-8 border-t text-center text-sm text-muted-foreground">
-            <p>© {new Date().getFullYear()} Serenity Villa. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} SIHAYA. All rights reserved.</p>
           </div>
         </div>
       </footer>
